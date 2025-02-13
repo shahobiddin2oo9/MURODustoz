@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: cursive, sans-serif;
+  background-image: url(./images/bg_img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.292);
+  background-blend-mode: darken;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+header > h1 {
+  font-size: 52px;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  padding-top: 32px;
+}
+.animals {
+  max-width: 316px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(159, 236, 133);
+}
+.animals > img {
+  width: 280px;
+  height: 180px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.animals > p {
+  font-size: 24px;
+  padding: 10px 0;
+  color: rgb(40, 40, 255);
+}
+.Animal_1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.animals > h4 {
+  font-size: 14px;
+  padding: 10px 0;
+}
+@media (max-width: 400px) {
+  html,
+  body {
+    background-color: rgb(244, 146, 0);
+    background-image: none;
+  }
+}
+@media (min-width: 360px) {
+  .Animal_1 {
+    flex-wrap: wrap;
+  }
+  .animals1 {
+    margin: 0 auto;
+  }
+  .animals2 {
+    margin: 0 auto;
+  }
+  .animals3 {
+    margin: 0 auto;
+  }
+  .animals4 {
+    margin: 0 auto;
+  }
+}
+@media (min-width: 421px) {
+  .Animal_1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .animals1 {
+    margin: 0 auto;
+  }
+  .animals2 {
+    margin: 0 auto;
+  }
+  .animals3 {
+    margin: 0 auto;
+  }
+  .animals4 {
+    margin: 0 auto;
+  }
+}
+@media (min-width: 768px) {
+  html,
+  body {
+    background-image: url(./images/bg_img1.jpg);
+  }
+  .Animal_1 {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .animals1 {
+    display: block;
+    margin: 0 auto;
+  }
+  .animals2 {
+    margin: 0 auto;
+    display: block;
+  }
+  .animals3 {
+    display: block;
+    margin: 0 auto;
+  }
+  .animals4 {
+    margin: 0 auto;
+    display: block;
+  }
+}
+@media (min-width: 1400px) {
+  .animals1 {
+    display: block;
+    margin: 0 auto;
+  }
+  .animals2 {
+    margin: 0 auto;
+    display: block;
+  }
+  .animals3 {
+    margin: 0 auto;
+    display: block;
+  }
+  .animals4 {
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 0px) {
+  .Animal_1 {
+    flex-wrap: wrap;
+  }
+}
